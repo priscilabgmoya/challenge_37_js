@@ -29,12 +29,11 @@
         <form>
             <span class="mb-3">
               <label for="inputUsuario" class="form-label">Ingrese su Respuesta: </label>
-              <input type="number" class="form-control" id="inputUsuario" aria-describedby="numberHelp" required maxlength="3" minlength="1" max="100" min="-100" readonly>
-              <div id="numberHelp" class="form-text">valor del numero: minino es -100 y maximo valor es 100</div>
+              <input type="number" class="form-control" id="inputUsuario" aria-describedby="numberHelp" required maxlength="3" minlength="1" max="20" min="1" readonly>
+              <div id="numberHelp" class="form-text">valor del numero: minino es 1 y maximo valor es 20</div>
             </span>
             <span class="d-flex justify-content-center">
                 <button type="button" class="btn btn-danger"  id="btnEnviarUsuario" onclick="obtenerAdivinaza()" disabled >Enviar <i class="bi bi-joystick"></i></button>
-
             </span>
           </form>
     </article>
