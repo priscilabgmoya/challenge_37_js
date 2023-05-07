@@ -1,7 +1,7 @@
 let numeroRandom = 0;
 
 function crearNumeroRandom() {
-    numeroRandom = generarNumero(-100, 100);
+    numeroRandom = generarNumero(1, 20);
     document.getElementById("inputUsuario").removeAttribute("readonly", false);
     document.getElementById("btnEnviarUsuario").removeAttribute("disabled", false);
     document.getElementById("btnInciarJuego").setAttribute("disabled", true);
